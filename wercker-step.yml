@@ -1,0 +1,12 @@
+name: gitter-notify
+version: 0.0.1
+description: The step-gitter-notify is a plugin that notifies the Gitter
+keywords:
+  - notification
+properties:
+  token:
+    type: string
+    required: true
+  on:
+    type: string
+    default: always
